@@ -1,3 +1,125 @@
+*{
+    margin:0px;
+}
+header{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(9, 77, 68);
+    
+}
+li{
+    display: inline-block;
+}
+header nav{
+    margin-right: 130px;
+    margin-top:5px;
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(216, 205, 167);
+}
+.logo{
+    margin-left: 130px;
+   
+    width: 50px;
+    
+}
+header div{
+    margin-top: 15px;
+    
+}
+header div a{
+    font-family: 'Walter Turncoat', cursive;
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+    margin:10px;
+   
+}
+header a:hover{
+    color: rgb(175, 151, 61);
+}
 body {
-    margin: 0;
+    
+    background-image: url(../images/chicago-skyline-engagement_0032.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    
+
+}
+@font-face{
+    font-family: Theboldfont;
+    src: url(../fonts/theboldfont/theboldfont.ttf);
+ 
+}
+h1{
+    margin-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    font-family:Theboldfont;
+    letter-spacing: 5px;
+}
+h2{
+    margin-top:120px;
+    margin-left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(28, 28, 44);
+    
+    font-size: 40px;
+}
+.projekt{
+    
+background-color: rgba(253, 253, 253, 0.603);
+width: 750px;
+height: 350px;
+text-align: center;
+text-align: justify;
+margin-top:70px ;
+margin-left: 485px;
+margin-right: 15px;
+margin-bottom: 40px;
+
+}
+
+p{
+    margin:30px ;
+    padding-top:20px;
+   font-size: 16px;
+    color:black;
+    text-align: center;
+    
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 40px;
+}
+.ausWahl a{
+    font-family: 'Walter Turncoat', cursive;
+    text-decoration: none;
+    color: rgb(46, 37, 6);
+    background-color: rgba(28, 77, 36, 0.384);
+    width: 140px;
+    margin: 7px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ausWahl{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.ausWahl a:hover{
+    color: rgb(129, 62, 0);
+}
+footer{
+
+    color:white;
+    font-family: 'Delius Swash Caps', cursive;
+    margin-top:57px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(9, 77, 68);
+    text-align: center;
+    padding-top:15px;
 }
